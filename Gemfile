@@ -21,7 +21,7 @@ gem "middleman-livereload", "~> 3.4"
 
 group :test do
   gem 'cucumber'
-  gem 'capybara'
+  gem 'capybara', '>= 2.13.0'
   gem 'aruba'
   gem 'rspec'
 end
