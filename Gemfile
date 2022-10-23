@@ -17,7 +17,7 @@ gem 'middleman-syntax', '~> 3.0'
 gem 'middleman-autoprefixer'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.4"
+gem "middleman-livereload", "~> 3.4", ">= 3.4.6"
 
 group :test do
   gem 'cucumber'
