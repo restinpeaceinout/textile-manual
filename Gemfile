@@ -9,7 +9,7 @@ gem 'rake'
 gem 'rdoc'
 gem 'yard'
 gem "middleman", "~>4.2.1"
-gem "middleman-sprockets", "~> 4.0.0.rc"
+gem "middleman-sprockets", "~> 4.0.0.0"
 gem "middleman-compass"
 gem 'middleman-syntax', '~> 3.0'
 
