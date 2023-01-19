@@ -8,16 +8,16 @@ gemspec
 gem 'rake'
 gem 'rdoc'
 gem 'yard'
-gem "middleman", "~>4.2.1"
-gem "middleman-sprockets", "~> 4.0.0.rc"
+gem "middleman", "~> 4.4.0"
+gem "middleman-sprockets", "~> 4.0.0.0"
 gem "middleman-compass"
-gem 'middleman-syntax', '~> 3.0'
+gem 'middleman-syntax', '~> 3.0', '>= 3.0.0'
 
 # Vendor prefixes for sass
 gem 'middleman-autoprefixer'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.4"
+gem "middleman-livereload", "~> 3.4", ">= 3.4.6"
 
 group :test do
   gem 'cucumber'
