@@ -6,22 +6,22 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake'
-gem 'rdoc'
-gem 'yard'
-gem "middleman", "~>4.2.1"
-gem "middleman-sprockets", "~> 4.0.0.rc"
+gem 'rdoc', '>= 6.3.4.1'
+gem 'yard', '>= 0.9.35'
+gem "middleman", "~> 4.3.0"
+gem "middleman-sprockets", "~> 4.1.0.0"
 gem "middleman-compass"
-gem 'middleman-syntax', '~> 3.0'
+gem 'middleman-syntax', '~> 3.2', '>= 3.2.0'
 
 # Vendor prefixes for sass
-gem 'middleman-autoprefixer'
+gem 'middleman-autoprefixer', '>= 2.8.0'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.4"
+gem "middleman-livereload", "~> 3.4", ">= 3.4.7"
 
 group :test do
   gem 'cucumber'
-  gem 'capybara'
+  gem 'capybara', '>= 2.14.0'
   gem 'aruba'
   gem 'rspec'
 end
