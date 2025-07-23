@@ -8,7 +8,7 @@ gemspec
 gem 'rake'
 gem 'rdoc'
 gem 'yard'
-gem "middleman", "~>4.2.1"
+gem "middleman", "~> 4.3.0"
 gem "middleman-sprockets", "~> 4.0.0.rc"
 gem "middleman-compass"
 gem 'middleman-syntax', '~> 3.0'
@@ -21,7 +21,7 @@ gem "middleman-livereload", "~> 3.4"
 
 group :test do
   gem 'cucumber'
-  gem 'capybara'
-  gem 'aruba'
+  gem 'capybara', '>= 2.14.0'
+  gem 'aruba', '>= 0.14.13'
   gem 'rspec'
 end
